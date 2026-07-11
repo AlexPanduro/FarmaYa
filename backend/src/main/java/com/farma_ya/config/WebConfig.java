@@ -18,7 +18,8 @@ public class WebConfig implements WebMvcConfigurer {
                         "http://localhost:8081",
                         "http://127.0.0.1:5500",
                         "http://127.0.0.1:3000",
-                        "null" // Para permitir file://
+                        "null",
+                        "https://reliable-cassata-773c67.netlify.app"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                 .allowedHeaders("*")
